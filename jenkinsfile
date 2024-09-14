@@ -1,0 +1,6 @@
+node{
+ stage('cloning'){
+    git branch:'main',url:''
+}
+stage('deploy'){
+  sh'mv /var/lib/jenkins/workspace/index.html /var/www/html'}}
