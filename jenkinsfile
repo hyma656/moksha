@@ -3,4 +3,4 @@ node{
     git branch:'main',url:'https://github.com/hyma656/moksha.git'
 }
 stage('deploy'){
-  sh'mv /var/lib/jenkins/workspace/index.html /var/www/html'}}
+  sh'mv /var/lib/jenkins/workspace/declarative/index.html /var/www/html'}}
